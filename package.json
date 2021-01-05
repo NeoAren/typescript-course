@@ -1,27 +1,27 @@
 {
-  "name": "typescript-basics",
-  "version": "1.0.0",
-  "description": "Basic TypeScript concepts and exercises",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NeoAren/typescript-basics.git"
-  },
-  "keywords": [
-    "typescript",
-    "basics"
-  ],
-  "author": "NeoAren",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NeoAren/typescript-basics/issues"
-  },
-  "homepage": "https://github.com/NeoAren/typescript-basics#readme",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  }
+   "name": "typescript-basics",
+   "version": "1.0.0",
+   "description": "Basic TypeScript concepts and exercises",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "lite-server"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NeoAren/typescript-basics.git"
+   },
+   "keywords": [
+      "typescript",
+      "basics"
+   ],
+   "author": "NeoAren",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/NeoAren/typescript-basics/issues"
+   },
+   "homepage": "https://github.com/NeoAren/typescript-basics#readme",
+   "devDependencies": {
+      "lite-server": "^2.6.1"
+   }
 }
