@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-   mode: 'production',
-   entry: './src/app.ts',
+   mode: 'development',
+   entry: './src/index.ts',
    output: {
       filename: 'bundle.js',
       path: path.resolve(__dirname, 'dist')
@@ -11,6 +11,12 @@ module.exports = {
       rules: [
          { test: /\.ts$/, exclude: /node_modules/, use: 'ts-loader' }
       ]
+   },
+   devtool: 'inline-source-map',
+   devServer: {
+      contentBase: './public',
+      publicPath: '/dist/',
+      open: true
    },
    resolve: {
       extensions: ['.ts', '.js']

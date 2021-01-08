@@ -67,11 +67,5 @@
       /* Advanced Options */
       "skipLibCheck": true,                     /* Skip type checking of declaration files. */
       "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
-   },
-   "exclude": [
-      "src/advanced",
-      "src/basics",
-      "src/project-1",
-      "src/project-2"
-   ]
+   }
 }
